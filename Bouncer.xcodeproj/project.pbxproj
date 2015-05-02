@@ -13,6 +13,7 @@
 		B19D21DB1AF4FC8000D8F342 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19D21DA1AF4FC8000D8F342 /* Images.xcassets */; };
 		B19D21DE1AF4FC8000D8F342 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19D21DC1AF4FC8000D8F342 /* LaunchScreen.xib */; };
 		B19D21EA1AF4FC8000D8F342 /* BouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D21E91AF4FC8000D8F342 /* BouncerTests.swift */; };
+		B19D21F41AF4FDD000D8F342 /* BouncerBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19D21F31AF4FDD000D8F342 /* BouncerBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B19D21E31AF4FC8000D8F342 /* BouncerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BouncerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19D21E81AF4FC8000D8F342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B19D21E91AF4FC8000D8F342 /* BouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerTests.swift; sourceTree = "<group>"; };
+		B19D21F31AF4FDD000D8F342 /* BouncerBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncerBehavior.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				B19D21D31AF4FC8000D8F342 /* AppDelegate.swift */,
+				B19D21F31AF4FDD000D8F342 /* BouncerBehavior.swift */,
 				B19D21D51AF4FC8000D8F342 /* ViewController.swift */,
 				B19D21D71AF4FC8000D8F342 /* Main.storyboard */,
-				B19D21DA1AF4FC8000D8F342 /* Images.xcassets */,
-				B19D21DC1AF4FC8000D8F342 /* LaunchScreen.xib */,
 				B19D21D11AF4FC8000D8F342 /* Supporting Files */,
 			);
 			path = Bouncer;
@@ -90,7 +91,9 @@
 		B19D21D11AF4FC8000D8F342 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B19D21DA1AF4FC8000D8F342 /* Images.xcassets */,
 				B19D21D21AF4FC8000D8F342 /* Info.plist */,
+				B19D21DC1AF4FC8000D8F342 /* LaunchScreen.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				B19D21D61AF4FC8000D8F342 /* ViewController.swift in Sources */,
 				B19D21D41AF4FC8000D8F342 /* AppDelegate.swift in Sources */,
+				B19D21F41AF4FDD000D8F342 /* BouncerBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
